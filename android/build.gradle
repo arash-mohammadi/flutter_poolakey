@@ -24,13 +24,13 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-        maven { url "https://jitpack.io" }
+        // maven { url "https://jitpack.io" }
         google()
-        maven { url "https://plugins.gradle.org/m2/" }
-        maven {
-            url "https://maven.google.com/"
-            name "Google"
-        }
+        // maven { url "https://plugins.gradle.org/m2/" }
+        // maven {
+        //     url "https://maven.google.com/"
+        //     name "Google"
+        // }
     }
 }
 
